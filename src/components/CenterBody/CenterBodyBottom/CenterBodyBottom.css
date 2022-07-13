@@ -1,0 +1,28 @@
+.iphoneimg {
+  width: 250px;
+  transition: all 0.5s linear;
+}
+.iphoneimg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.centerbtninput {
+  border: none;
+}
+.centerbtninput:focus {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.centerbtnbtn {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.centerbottomform {
+  width: 50%;
+}
+@media(max-width: 777px){
+  .centerbottomform {
+    width: 100%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #F5F8FF;
+}
+.line {
+  height: 5px;
+  width: 60px;
+  border-radius: 3px;
+  background-color: green;
+}
+.footer-div p {
+  cursor: pointer;
+}
+@media(max-width: 800px){
+  .footer-logo {
+    display: none;
+  }
+}
+@media(max-width: 750px){
+  .footer-div {
+    margin: 50px;
+  }
+}
+@media(max-width: 600px){
+  .footer-div {
+    margin: 40px;
+  }
+}
+@media(max-width: 430px){
+  .footer-div {
+    margin: 20px;
+  }
+}

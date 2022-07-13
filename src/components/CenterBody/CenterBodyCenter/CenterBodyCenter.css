@@ -1,0 +1,32 @@
+.centerbodycenter {
+  padding: 100px 0;
+  background-color: #F5F8FF;
+}
+.centerbodycenter-btn {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.center-icons  {
+  margin: auto;
+  padding: 5px 25px;
+  border-radius: 17px;
+  background-color: #F5F8FF;
+  box-shadow: 2px 3px 11px 0 black;
+  margin: 10px;
+}
+.bitcoin-money {
+  transform: translateY(-5px);
+}
+
+@media(max-width: 780px) {
+  .centerbodycenterdiv {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .center-icons  {
+    margin: 20px;
+    transform: translate(20px);
+  }
+}
